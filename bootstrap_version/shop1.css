@@ -1,0 +1,115 @@
+body {
+  background: url(../photos/bg.png) no-repeat fixed;
+  background-size: auto;
+  background-position: 10% 100%;
+  padding-top: 7em;
+  font-family: "Amatic SC", cursive;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-size: cover;
+    background-position: 0% 50%;
+    padding-top: 9em;
+  }
+}
+
+.title {
+  font-family: "Fredericka the Great", cursive; /*Title "Choose Your Order"/"Fill out your data"*/
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#containerOrder,
+#containerForm {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 2.5em;
+}
+
+#containerOrder {
+  margin-bottom: 4em;
+}
+
+form img {
+  box-shadow: 0px 0px 20px 8px #cec3b1;
+  transition: 0.3s;
+}
+
+form img:hover {
+  box-shadow: 0px 0px 18px 3px #9e6166;
+}
+
+fieldset {
+  border: 1px solid #666633;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+legend {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 1.3em;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card .card-img {
+  border: none;
+  border-radius: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+}
+
+#containerOrder select,
+#containerForm select {
+  color: #8c8c8c;
+}
+
+option,
+optgroup {
+  color: #000000;
+}
+
+.labelForm {
+  font-size: 1.5em;
+}
+
+#containerButtons input {
+  padding: 5px 15px;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5em;
+}
+
+#containerButtons input:hover {
+  box-shadow: 0px 0px 18px 3px #c5a0a3;
+}

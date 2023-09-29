@@ -1,0 +1,54 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar span {
+  width: 1em;
+}
+
+.navbar img {
+  width: 282px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 440px;
+  }
+  .navbar .container-fluid {
+    flex-direction: column;
+  }
+}
+
+.navbar ul {
+  margin-top: -15px;
+  margin-bottom: -7px;
+}
+
+.nav-item {
+  padding: 0 5.7em;
+}
+
+.nav-link {
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.nav-link:hover {
+  text-shadow: 2px 2px 8px #7e4e52;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-nav .nav-item {
+    padding: 0 4em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav .nav-item {
+    padding: 0 2.5em;
+  }
+}

@@ -45,22 +45,15 @@ h3 {
   list-style-image: url(../photos/list-image.png);
 }
 
-#list a:link {
-  text-decoration: none;
+#containerAbout a:link {
   color: #000000;
-} /*distinguish from underlined link*/
+}
 
-a.underlined:link {
-  color: #000000;
-} /*distinguish from footer links & non underlined links*/
-
-a.underlined:visited,
-#list a:visited {
+#containerAbout a:visited {
   color: #901d77;
 }
 
-a.underlined:hover,
-#list a:hover {
+#containerAbout a:hover {
   text-shadow: 2px 2px 8px #7e4e52;
 }
 

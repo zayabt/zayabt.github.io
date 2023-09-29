@@ -1,0 +1,98 @@
+#everything {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+body {
+	margin: 0;
+	background-color: #dcc6ae;
+	background: url(photos/bg.png) no-repeat fixed;
+	background-position: 0% 50%;
+	background-size: cover;
+}
+
+#title {
+	font-family: 'Fredericka the Great', cursive; /*Title "Choose Your Order"/"Fill out your data"*/
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#contCrochet, #contClay, #contFelt, #contDraw, #contPhoto {
+	background: transparent;
+	background-image: url(photos/white-opac.png);
+	margin: 2em;
+}
+
+legend {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 2em;
+}
+
+fieldset {
+	border: 1px solid #666633;
+	border-radius: 8px;
+	margin: 0 10px 100px 10px;
+}
+
+.text {
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 1.4em;
+	text-align: center;
+	color: #000000;
+	margin-left: 30px;
+	margin-right: 30px; 
+}
+
+p.italic {
+	font-style: italic;
+}
+
+.crochet, .clay, .felt, .draw, .photo{
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+	
+.crochet, .felt {padding-bottom: 305px;}
+.clay, .photo {padding-bottom: 320px;}
+.draw {padding-bottom: 340px;}
+
+.img_floatLeft {
+	float: left;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.img_floatRight {
+	float: right;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+
+#everything img {
+	object-fit: cover;
+	box-shadow: 0px 0px 20px 8px #9d8662;
+}
+
+/*distinguish from footer links*/
+
+a.link:link {
+	color: #000000;
+} 
+
+a.link:visited {
+	color: #901d77;
+}
+
+a.link:hover {
+	text-shadow: 2px 2px 8px #7e4e52;
+}
+
+
+@media(max-width: 830px){
+	#everything img {
+		width: 100%;
+		height: auto;
+}
+}

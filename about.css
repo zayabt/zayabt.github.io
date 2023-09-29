@@ -1,0 +1,60 @@
+#everything {
+	margin: 6.8em 17em 0 17em;
+	display: flex;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+body {
+	margin: 0;
+	background-color: #dcc6ae; /*in case the image doesn't load*/
+	background: url(photos/bg.png) no-repeat fixed;
+	background-size: cover;
+	background-position: 0% 50%;
+}
+
+#title {
+	font-family: 'Fredericka the Great', cursive; /*Title "Choose Your Order"/"Fill out your data"*/
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+#containerAbout {
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 1.4em;
+	padding-top: 1em;
+	padding-bottom: 5em;
+}
+
+#contimg img {
+	box-shadow: 0px 0px 20px 8px #b09e82;
+}
+
+#contimg {
+	float: left;
+	padding: 10px 50px 20px 0px;
+} 
+	
+#list {
+	list-style-image: url(photos/list-image.png);
+}
+
+#list a:link{text-decoration: none;
+	color: #000000
+} /*distinguish from underlined link*/
+
+a.underlined:link {
+	color: #000000;
+} /*distinguish from footer links & non underlined links*/
+
+a.underlined:visited, #list a:visited{
+	color: #901d77;
+}
+
+a.underlined:hover, #list a:hover {
+	text-shadow: 2px 2px 8px #7e4e52;
+}
+	
+

@@ -1,0 +1,45 @@
+#containerBars {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center; /*Center the alignments for all the items of the flexible <div> element*/
+    flex-direction: column; /*Stack elements vertically. Has effect only with flex item*/
+	padding-bottom: 5px;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal alignment */
+}
+
+nav a {
+    font-family: 'Amatic SC', cursive;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0 4.3em; 
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 8px #7e4e52;
+}
+
+@media(max-width: 1080px) {
+    nav ul {
+        flex-direction: row; 
+    }
+    
+    nav a {
+        padding: 1.2em;
+    }
+}

@@ -5,6 +5,10 @@
   padding-bottom: 0;
 }
 
+span.unique {
+  color: red;
+}
+
 .navbar span {
   width: 1em;
 }

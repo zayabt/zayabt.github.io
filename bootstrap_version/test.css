@@ -88,4 +88,5 @@ label {
   background-image: linear-gradient(to bottom right, #ffff88, #ffff4d);
   /*box-shadow: 4px 6px 15px #333300;*/
   z-index: 100;
+  margin-top: 1em;
 }
